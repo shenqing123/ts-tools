@@ -1,7 +1,7 @@
 import request from "@/utils/chartRequest";
 
-export const getReportData = () => request.get("/reportdata");
-export const getSalesData = () => request.get("/saledata");
-export const getKeywordData = () => request.get("/keyworddata");
-export const getCategoryData = () => request.get("/categorydata");
-export const getMapData = () => request.get("/mapdata");
+export const getReportData = () => request.get("/api/reportdata");
+export const getSalesData = () => request.get("/api/saledata");
+export const getKeywordData = () => request.get("/api/keyworddata");
+export const getCategoryData = () => request.get("/api/categorydata");
+export const getMapData = () => request.get("/api/mapdata");

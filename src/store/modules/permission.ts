@@ -3,6 +3,7 @@ import { defineStore } from "pinia";
 import { constantRoutes } from "@/router";
 import { store } from "@/store";
 import { listRoutes } from "@/api/menu";
+import { log } from "console";
 
 const modules = import.meta.glob("../../views/**/**.vue");
 const Layout = () => import("@/layout/index.vue");
